@@ -1,0 +1,28 @@
+{
+    "name": "batttest",
+    "version": "1.0.0",
+    "description": "A script that uses your battery and sends a post request to keep track of how long it lasts.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:DanielCoulbourne/batttest.git"
+    },
+    "keywords": [
+        "battery",
+        "macos",
+        "benchmark"
+    ],
+    "author": "Daniel Coulbourne <@dcoulbourne>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DanielCoulbourne/batttest/issues"
+    },
+    "homepage": "https://github.com/DanielCoulbourne/batttest#readme",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "child_process": "^1.0.2"
+    }
+}
