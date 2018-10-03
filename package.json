@@ -2,7 +2,11 @@
     "name": "batttest",
     "version": "1.0.0",
     "description": "A script that uses your battery and sends a post request to keep track of how long it lasts.",
-    "main": "index.js",
+    "bin": {
+        "batttest": "bin/batttest.js"
+    },
+    "main": "./lib/index.js",
+    "preferGlobal": true,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
