@@ -1,6 +1,6 @@
 {
     "name": "batttest",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A script that uses your battery and sends a post request to keep track of how long it lasts.",
     "bin": {
         "batttest": "bin/batttest.js"
